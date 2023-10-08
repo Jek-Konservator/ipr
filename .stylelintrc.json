@@ -1,0 +1,13 @@
+{ "extends": ["stylelint-config-standard","stylelint-config-styled-components"],
+  "rules": {
+    "selector-class-pattern": null
+  },
+
+  "overrides": [
+    {
+      "files": [
+        "**/*.{js,ts,jsx,tsx}"
+      ],
+      "customSyntax": "@stylelint/postcss-css-in-js"
+    }]
+}
